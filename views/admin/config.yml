@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: covingtondoan/spike-netlify-cms-example
+  branch: master
+
+media_folder: "assets/img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "posts"
+    label: "Post"
+    folder: "posts"
+    extension: "sgr"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}

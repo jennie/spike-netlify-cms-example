@@ -1,7 +1,0 @@
----
-title: Post Four
-author: Covington
----
-extends(src='../views/_post_template.sgr')
-  block(name='content')
-    .body(md) Can you see my markdown?

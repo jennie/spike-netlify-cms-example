@@ -12,10 +12,10 @@ collections:
     folder: "posts"
     extension: "sgr"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "text"}
+      - {label: "Author", name: "author", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"

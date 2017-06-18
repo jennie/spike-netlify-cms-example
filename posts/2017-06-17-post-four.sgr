@@ -1,7 +1,8 @@
 ---
-title: Post Four
-author: Covington
+title: 'Post Four'
+author: 'Covington'
 ---
+
 extends(src='../views/_post_template.sgr')
   block(name='content')
     .body(md) Fourth time's the charm...
